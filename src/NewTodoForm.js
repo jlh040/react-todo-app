@@ -10,7 +10,7 @@ const NewTodoForm = () => {
     setFormData({
       [name]: value
     })
-  }
+  };
 
   return (
     <div>

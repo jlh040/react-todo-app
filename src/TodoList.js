@@ -5,12 +5,17 @@ import Todo from './Todo';
 
 const TodoList = () => {
   const [todos, setTodos] = useState([{task: 'clean the gutters', id: uuid()}]);
+  const addItem = task => {
+    setTodos(currTodos => {
+      return [...currTodos, {task, id: uuid()}]
+    })
+  };
 
   return (
     <div>
       <h2>Todo List</h2>
-      <NewTodoForm />
-      {todos.map(todo => <Todo id={todo.id} task={todo.task}/>)}
+      <NewTodoForm addItem={addItem}/>
+      {todos.map(todo => <Todo key={todo.id} id={todo.id} task={todo.task}/>)}
     </div>
   )
 };
