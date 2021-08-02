@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const NewTodoForm = () => {
+const NewTodoForm = ({ addItem }) => {
   const initialState = {
     task: 'Where are the goos'
   };
@@ -11,10 +11,16 @@ const NewTodoForm = () => {
       [name]: value
     })
   };
+  const handleSubmit = e => {
+    e.preventDefault();
+    addItem(formData.task);
+
+    setFormData(initialState);
+  }
 
   return (
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label htmlFor="task">Enter task: </label>
         <input 
           type="text" 
@@ -24,6 +30,7 @@ const NewTodoForm = () => {
           value={formData.task}
           onChange={handleChange}
         />
+        <button>Add Task</button>
       </form>
     </div>
   )
