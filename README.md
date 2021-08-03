@@ -1,6 +1,6 @@
 # Functionality
 
-This is a simple Todo List app that has allowed me to practice [creating forms in React](https://reactjs.org/docs/forms.html) and testing using [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/). Check out the **src** folder to see the components that I wrote.
+This is the second part to Springboard's 39.8.12 exercise ([first part](https://github.com/jlh040/react-color-box-maker)). It is a small app that allows a user to create a colored box by entering a background color, height, and width. After submitting the info, the box appears on the page, and can also be deleted. The purpose of this exercise was to get some practice with [creating forms in React](https://reactjs.org/docs/forms.html), and also to get some practice using [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 
 # Getting Started with Create React App
 
