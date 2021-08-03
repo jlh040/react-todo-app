@@ -3,7 +3,7 @@ import './NewTodoForm.css';
 
 const NewTodoForm = ({ addItem }) => {
   const initialState = {
-    task: 'Where are the goos'
+    task: ''
   };
   const [formData, setFormData] = useState(initialState);
   const handleChange = e => {

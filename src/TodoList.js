@@ -4,7 +4,7 @@ import NewTodoForm from './NewTodoForm';
 import Todo from './Todo';
 
 const TodoList = () => {
-  const [todos, setTodos] = useState([{task: 'clean the gutters', id: uuid()}]);
+  const [todos, setTodos] = useState([]);
   const addItem = task => {
     setTodos(currTodos => {
       return [...currTodos, {task, id: uuid()}]
