@@ -1,6 +1,6 @@
 # Functionality
 
-This is the second part to Springboard's 39.8.12 exercise ([first part](https://github.com/jlh040/react-color-box-maker)). It is a small app that allows a user to create, view, and delete todo list items. The purpose of this exercise was to get some practice with [creating forms in React](https://reactjs.org/docs/forms.html), and also to get some practice using [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
+This is the second part to Springboard's 39.8.12 exercise ([First Part Here](https://github.com/jlh040/react-color-box-maker)). It is a small app that allows a user to create, view, and delete todo list items. The purpose of this exercise was to get some practice with [creating forms in React](https://reactjs.org/docs/forms.html), and also to get some practice using [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
 
 # Getting Started with Create React App
 
