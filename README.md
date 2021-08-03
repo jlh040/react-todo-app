@@ -1,10 +1,14 @@
+# Functionality
+
+This is a simple Todo app that has allowed me to practice [creating forms in React](https://reactjs.org/docs/forms.html) and testing using [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+First, run `npm install` to download all of the dependencies, then, In the project directory, you can run:
 
 ### `npm start`
 

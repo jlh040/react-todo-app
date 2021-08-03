@@ -41,4 +41,4 @@ it('successfully removes todos from the page', () => {
     fireEvent.click(getByText('X'));
 
     expect(queryByText('Task: Take out the trash')).not.toBeInTheDocument();
-})
+});
