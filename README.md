@@ -1,6 +1,6 @@
 # Functionality
 
-This is a simple Todo app that has allowed me to practice [creating forms in React](https://reactjs.org/docs/forms.html) and testing using [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/).
+This is a simple Todo List app that has allowed me to practice [creating forms in React](https://reactjs.org/docs/forms.html) and testing using [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/). Check out the **src** folder to see the components that I wrote.
 
 # Getting Started with Create React App
 
