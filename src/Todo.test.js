@@ -8,4 +8,4 @@ it('renders without crashing', () => {
 it('matches the snapshot', () => {
     const { asFragment } = render(<Todo />);
     expect(asFragment()).toMatchSnapshot();
-})
+});
