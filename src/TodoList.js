@@ -10,6 +10,11 @@ const TodoList = () => {
       return [...currTodos, {task, id: uuid()}]
     })
   };
+  const removeItem = (id) => {
+    setTodos(currTodos => {
+      return currTodos.filter(todo => todo.id !== id);
+    })
+  }
 
   return (
     <div>

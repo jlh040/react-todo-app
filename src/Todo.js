@@ -6,6 +6,7 @@ const Todo = ({ task }) => {
       <ul>
         <li>Task: {task}</li>
       </ul>
+      <button>X</button>
     </div>
   )
 };
