@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Todo = ({ task }) => {
+const Todo = ({ removeItem, id, task }) => {
   return (
     <div>
       <ul>
         <li>Task: {task}</li>
       </ul>
-      <button>X</button>
+      <button onClick={() => removeItem(id)}>X</button>
     </div>
   )
 };

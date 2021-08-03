@@ -20,7 +20,7 @@ const TodoList = () => {
     <div>
       <h2>Todo List</h2>
       <NewTodoForm addItem={addItem}/>
-      {todos.map(todo => <Todo key={todo.id} id={todo.id} task={todo.task}/>)}
+      {todos.map(todo => <Todo key={todo.id} id={todo.id} task={todo.task} removeItem={removeItem}/>)}
     </div>
   )
 };
